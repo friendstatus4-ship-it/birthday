@@ -1196,7 +1196,7 @@ I keep going back to that day where we ate DBC the first meeting 😘 that even 
  I don't think I've ever felt joy like that before or since. And that's the thing about you, every second with you feels like that day but the time passes fastly they say  ISTA AGIRORA JOTEGE TIME KALIYODE GOTTU AGALLA TIME JALDI JALDI HOGUTE 🥺🥺🥺🥺💖💖💖.
   My heart genuinely races when we're together, like some part of me knows I'm living through something I'll ache to remember one day. I laugh harder with you than with anyone else on this earth. I feel like a kid again, careless and light, and that's such a rare gift once you grow up. You're the only one who has ever been able to give me that🥺🫂.
 There's something I've been carrying quietly, and I can't hold it in anymore . Every time work keeps you from coming out with me, something in my chest just sinks. It hurts more than I've ever let myself show you . I always smile and say it's fine, because I don't want to be a burden on you 😊, and because I know how hard you work and why. But underneath that smile,Sometimes I feel like just another name in your life... not someone who means something different, not someone who stands apart. Just one more person from the many you know — nothing more, nothing less. And that thought quietly breaks something in me. I never wanted to be ordinary to you. I wanted to be the one you'd never confuse with anyone else. But when I feel replaceable, like I could disappear and the space would just close up like I was never there... that's the kind of pain that doesn't leave marks, but never really heals either." 🥺💔Something hurts deep in my heart .. I feel so sad 😢. And even as I say this, a small voice in me whispers that I'm probably just a bother, just disturbing you with all this. But.....
-Something in my chest keeps caving in and I don't know how to make it stop. This feeling of being nothing special, just another name in a long list of names — it doesn't just hurt, it hollows me out. I keep swallowing the words because a part of me is convinced that even this, even reaching out like this, is too much. That I'm a burden for wanting to be seen. So I sit here with this ache pressing on my chest, telling myself to disappear quietly before I disturb anyone with how much I'm feeling." 😢💔 but ..... you changed that all and told me i was wrong that i was thinking like that you hold the most special place in my heart that couldnt be changed by any one there you proved me wrong I miss you so much🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂😭😭😭 in those moments it almost feels physical.
+Something in my chest keeps caving in and I don't know how to make it stop. This feeling of being nothing special, just another name in a long list of names — it doesn't just hurt, it hollows me out. I keep swallowing the words because a part of me is convinced that even this, even reaching out like this, is too much. That I'm a burden for wanting to be seen. So I sit here with this ache pressing on my chest, telling myself to disappear quietly before I disturb anyone with how much I'm feeling." 😢💔 but ..... you changed that all and told me i was wrong that i was thinking like that you hold the most special place in my heart that couldnt be changed by any one there you proved me wrong (somethimes i feel like i am the new person in yourlife and you already had too many peoples close to your heart and i dont think i will ever be it hurts directly to my heart a lot😔) but I miss you so much🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂😭😭😭 in those moments it almost feels physical.
 Every time I look at you, I see someone carrying the weight of the whole world without ever putting it down. 🌍 You're a teacher shaping young minds all day 📚, then you come home and become everything else too — running your business 💼, holding our home together 🏡, being there for everyone who needs you, including me. 🥺 You never say no. You never stop. And somewhere in all of that, I feel like you forget to take care of the one person who deserves it the most — you. 💔Sometimes when I look at you, I still see that little girl who just wants to smile and laugh without a worry in the world 🎈😊, and then in the next moment, I see this strong woman managing a hundred things at once, like it's nothing. 💪 But I know it's not nothing. I know you're tired, even when you don't say it. 😔 I wish I could take some of that weight off your shoulders.I feel useless sometimes because I can't do more, but please know this — I am with you. Always. ❤️ In every hard moment, in every heavy day, I am right here beside you. 🤍So just for a little while, let go. Breathe. 🌬️ Rest your head, close your eyes, and let me hold you. 🫂 You don't have to be strong for anyone right now. Just be you — tired, human, and loved beyond words. I've got you. 💞 
  you matter to me. I don't want there to be a single feeling about you that I've kept from you And at the end of the day I feel like if i had a power to stop time i would stop it  and do all the things you want and until your  heart feels lighter  and satisfied and we could roam around the world  and even the time wont be the worst enemy there 😊🫂 every time i feel like it should  have last a little loooooooonnger , a little longer talks , little longer together  and a little tighter hug Nobody, and I mean nobody, has ever celebrated me the way you have. When you handed me my cake on my birthday , I completely froze. I didn't know what to say, but inside, something broke open. I felt like a small child standing in front of his mother, aching to hug you and just cry into your shoulder, and I never did either, and some part of me still regrets that I held back. I want you to know I felt every bit of it, even in my silence. The effort you pour into loving me sometimes makes me feel like I couldn't possibly deserve it, like how did I get so lucky to have you as my sister 🫂🫂 feels like giving you a tight hug and  do you remember once you laid in my laps , i felt like if i had my own daughter i would treat her like you but at fact you were like my daughter and mother when needed i cant even repay you when ever i got angry on you you were calm but handed me with care , and when i was sad you treated me like a kid , when i was happy you were also the happiest person and  my heart was the happiest i cant even frame words but i think you understood🫂🫂💞. and then we recored that all and it felt like the memories are captured perfectly ther is nothing more beautiful than this i think so 🫂😊🫂💝💝 And yet you keep making me feel worthy of it anyway, over and over, and it has quietly changed who I am.
 I know sometimes you feel like I could leave you anytime, but I need you to hear this clearly — I never will, and I never could. You've been the one who understood me when I didn't even understand myself. You stayed through every problem, every hard moment, every time I said things I didn't mean in my sadness or anger. You never walked away. You just held on tighter and handled me with so much patience and love.
@@ -1501,68 +1501,138 @@ function renderLetterBook(){
   if(!book || !prevBtn || !nextBtn || !count) return;
 
   const letterPages = splitLetterIntoPages(CONFIG.loveLetter);
-  const totalFlips = letterPages.length + 1;
-  let currentPage = 0;
+  const totalFlips = letterPages.length + 1; // same meaning as before, for the counter text
+  const N = letterPages.length + 2;          // cover + letter pages + signature
+  const FLIP_MS = 1150;                      // >= the .book-page CSS transition time, with margin
 
-  book.innerHTML = `
-    <button class="book-page" type="button" style="z-index:${totalFlips + 1}" aria-label="Open the letter book">
-      <span class="book-face book-cover">
-        <span class="book-cover-title">For You<span class="cover-heart">❤🫂</span></span>
-        <span class="book-cover-name">MY BOUNCHI BOUNCHI ,written with all the love 💝🫂😘</span>
-       
-        <span class="book-cover-sub">click to open</span>
-      </span>
-      <span class="book-face book-back book-paper">
-        <p class="book-page-kicker">chapter three</p>
-        <p class="letter-heading script">A letter, for my Bounchii</p>
-      </span>
-    </button>
-    ${letterPages.map((page, index) => `
-      <button class="book-page" type="button" style="z-index:${totalFlips - index}" aria-label="Turn letter page ${index + 1}">
-        <span class="book-face book-paper">
-          <p class="book-page-kicker">page ${index + 1}</p>
-          <p class="letter-body">${escapeHtml(page)}</p>
+  let currentPage = 0;
+  const mounted = new Map(); // index -> DOM element, only 3-4 entries ever exist
+
+  function pageMarkup(index){
+    if(index === 0){
+      return `
+        <span class="book-face book-cover">
+          <span class="book-cover-title">For You<span class="cover-heart">❤🫂</span></span>
+          <span class="book-cover-name">MY BOUNCHI BOUNCHI ,written with all the love 💝🫂😘</span>
+          <span class="book-cover-sub">click to open</span>
         </span>
         <span class="book-face book-back book-paper">
-          <p class="book-page-kicker">${index + 1 === letterPages.length ? 'final page' : `page ${index + 2}`}</p>
+          <p class="book-page-kicker">chapter three</p>
+          <p class="letter-heading script">A letter, for my Bounchii</p>
+        </span>`;
+    }
+    if(index === N - 1){
+      return `
+        <span class="book-face book-paper signature-page">
+          <p class="letter-sign script">${escapeHtml(CONFIG.signature)}</p>
         </span>
-      </button>
-    `).join('')}
-    <button class="book-page" type="button" style="z-index:1" aria-label="Final signature page">
-      <span class="book-face book-paper signature-page">
-        <p class="letter-sign script">${escapeHtml(CONFIG.signature)}</p>
+        <span class="book-face book-back book-paper">
+          <p class="book-page-kicker">the end</p>
+        </span>`;
+    }
+    const i = index - 1; // index into letterPages
+    return `
+      <span class="book-face book-paper">
+        <p class="book-page-kicker">page ${i + 1}</p>
+        <p class="letter-body">${escapeHtml(letterPages[i])}</p>
       </span>
       <span class="book-face book-back book-paper">
-        <p class="book-page-kicker">the end</p>
-      </span>
-    </button>`;
+        <p class="book-page-kicker">${i + 1 === letterPages.length ? 'final page' : `page ${i + 2}`}</p>
+      </span>`;
+  }
 
-  const pages = [...book.querySelectorAll('.book-page')];
-  function updateBook(){
-    pages.forEach((page, index) => {
-      page.classList.toggle('flipped', index < currentPage);
+  function pageLabel(index){
+    if(index === 0) return 'Open the letter book';
+    if(index === N - 1) return 'Final signature page';
+    return `Turn letter page ${index}`;
+  }
+
+  function createPage(index, startFlipped){
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'book-page' + (startFlipped ? ' flipped' : '');
+    el.style.zIndex = String(N - index); // identical formula to the original engine
+    el.dataset.index = String(index);
+    el.setAttribute('aria-label', pageLabel(index));
+    el.innerHTML = pageMarkup(index);
+    el.addEventListener('click', nextPage);
+    mounted.set(index, el);
+    book.appendChild(el);
+    return el;
+  }
+
+  function unmountIndex(index){
+    const el = mounted.get(index);
+    if(!el) return;
+    el.remove();
+    mounted.delete(index);
+  }
+
+  // Only ever keep the pages that could possibly be on screen.
+  function pruneOutsideWindow(){
+    const lo = currentPage - 1;
+    const hi = currentPage + 2;
+    [...mounted.keys()].forEach(index => {
+      if(index < lo || index > hi) unmountIndex(index);
     });
+  }
+
+  // The visible spread needs: the top page, and the page underneath it.
+  function ensureVisiblePages(){
+    if(currentPage < N && !mounted.has(currentPage)){
+      createPage(currentPage, false);
+    }
+    if(currentPage + 1 < N && !mounted.has(currentPage + 1)){
+      createPage(currentPage + 1, false);
+    }
+  }
+
+  function updateControls(){
     prevBtn.disabled = currentPage === 0;
-    nextBtn.disabled = currentPage === pages.length;
+    nextBtn.disabled = currentPage === N;
     count.textContent = currentPage === 0 ? 'Cover' : `${Math.min(currentPage, totalFlips)} / ${totalFlips}`;
   }
+
   function nextPage(){
-    if(currentPage < pages.length){
-      currentPage += 1;
-      updateBook();
-    }
-  }
-  function previousPage(){
-    if(currentPage > 0){
-      currentPage -= 1;
-      updateBook();
-    }
+    if(currentPage >= N) return;
+    const flippingIndex = currentPage;
+    ensureVisiblePages(); // guarantees flippingIndex + flippingIndex+1 exist in the DOM
+    currentPage += 1;
+    const el = mounted.get(flippingIndex);
+    if(el) el.classList.add('flipped'); // was already painted unflipped -> animates normally
+    updateControls();
+    setTimeout(pruneOutsideWindow, FLIP_MS);
   }
 
-  pages.forEach(page => page.addEventListener('click', nextPage));
-  nextBtn.addEventListener('click', nextPage);
+  function previousPage(){
+    if(currentPage <= 0) return;
+    const flippingIndex = currentPage - 1;
+    let el = mounted.get(flippingIndex);
+    if(!el){
+      // It was pruned. Recreate it already in the "flipped" position
+      // (no transition fires, since the element is brand new), then
+      // release the class on the next two paints so it animates back in.
+      // The double rAF is the reliable fix for the exact class of
+      // "flash on first frame" bug Android Chrome's compositor has here.
+      el = createPage(flippingIndex, true);
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        el.classList.remove('flipped');
+      }));
+    } else {
+      el.classList.remove('flipped');
+    }
+    currentPage -= 1;
+    updateControls();
+    setTimeout(pruneOutsideWindow, FLIP_MS);
+  }
+
+  // Initial mount: just the cover, plus the page underneath it for depth.
+  createPage(0, false);
+  if(N > 1) createPage(1, false);
+
   prevBtn.addEventListener('click', previousPage);
-  updateBook();
+  nextBtn.addEventListener('click', nextPage);
+  updateControls();
 }
 renderLetterBook();
 
